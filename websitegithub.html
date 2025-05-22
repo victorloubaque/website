@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual - Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .banner {
+            background: url('https://via.placeholder.com/1200x400?text=Banner+Principal') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+        }
+
+        .produtos-destaque {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .produtos-destaque h2 {
+            margin-bottom: 30px;
+        }
+
+        .produto {
+            display: inline-block;
+            margin: 15px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            width: 200px;
+        }
+
+        .produto img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Minha Loja Virtual</h1>
+        <p>Os melhores produtos com os melhores preços</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Carrinho</a>
+    </nav>
+
+    <div class="banner"></div>
+
+    <section class="produtos-destaque">
+        <h2>Destaques da Semana</h2>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200x200?text=Produto+1" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>R$ 99,90</p>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200x200?text=Produto+2" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>R$ 149,90</p>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200x200?text=Produto+3" alt="Produto 3">
+            <h3>Produto 3</h3>
+            <p>R$ 199,90</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Minha Loja Virtual. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
